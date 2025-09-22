@@ -1,30 +1,59 @@
-# Remittra landing page
+# Remittra Landing Page
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+This project is a modern landing page built with [Next.js](https://nextjs.org/) and [TypeScript](https://www.typescriptlang.org/). It uses a component-based architecture and leverages Tailwind CSS for styling.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/toon-centrals-projects-2c712680/v0-remittra-landing-page)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/projects/V7X7ynsoKk6)
+## Features
 
-## Overview
+- **Responsive Design:** Looks great on all devices.
+- **Reusable Components:** Includes a header, hero section, features section, and footer.
+- **Theming:** Theme provider for easy customization.
+- **Optimized Assets:** Uses placeholder images and SVGs for fast loading.
+- **TypeScript Support:** Ensures type safety and better developer experience.
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+## Project Structure
 
-## Deployment
+```
+.
+├── app/                # Next.js app directory (pages, layout, global styles)
+├── components/         # Reusable UI and section components
+├── lib/                # Utility functions
+├── public/             # Static assets (images, SVGs)
+├── styles/             # Global CSS (Tailwind)
+├── types/              # TypeScript types
+├── .gitignore
+├── next.config.mjs
+├── package.json
+├── tsconfig.json
+└── README.md
+```
 
-Your project is live at:
+## Getting Started
 
-**[https://vercel.com/toon-centrals-projects-2c712680/v0-remittra-landing-page](https://vercel.com/toon-centrals-projects-2c712680/v0-remittra-landing-page)**
+1. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
-## Build your app
+2. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
 
-Continue building your app on:
+3. **Open [http://localhost:3000](http://localhost:3000) to view the landing page.**
 
-**[https://v0.app/chat/projects/V7X7ynsoKk6](https://v0.app/chat/projects/V7X7ynsoKk6)**
+## Customization
 
-## How It Works
+- Update images in the `public/` folder.
+- Edit text and sections in the `components/` and `app/` directories.
+- Modify styles in `styles/globals.css` or use Tailwind utility classes.
 
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+## Technologies Used
+
+- [Next.js](https://nextjs.org/)
+- [React](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+
+## License
+
+This project is for demonstration purposes.
