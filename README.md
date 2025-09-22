@@ -54,6 +54,6 @@ This project is a modern landing page built with [Next.js](https://nextjs.org/) 
 - [TypeScript](https://www.typescriptlang.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
 
-## License
 
-This project is for demonstration purposes.
+Link to deployed app 
+https://remittra-challenge.vercel.app/
